@@ -79,3 +79,4 @@ Este proyecto fue desarrollado por estudiantes de la Maestria en Inteligencia Ar
 
 🎓 Sebastián Urquijo Buitrago
 
+🎓 Miguel Mauricio Meza
