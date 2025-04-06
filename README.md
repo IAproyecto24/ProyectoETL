@@ -42,21 +42,33 @@ Entre los años 2018 y 2024, Colombia ha enfrentado desafíos en materia de segu
 
 ---
 
+## 🔗 Fuentes de Datos
+
+Los datos extraídos y utilizados en este proyecto provienen de las siguientes fuentes oficiales:
+
+- 📁 [Archivos de la Fiscalía General de la Nación (Google Drive)](https://drive.google.com/drive/folders/1-9mURIly6WvBtGJfe7vRjvEHwFfE5gWs)
+- 🌐 [Estadística Delictiva - Policía Nacional de Colombia (Web Oficial)](https://www.policia.gov.co/estadistica-delictiva?page=1)
+- 📁 [Archivos XLSX y CSV extraídos (Google Drive)](https://drive.google.com/drive/u/3/folders/180HfeUy5t6mAdlSFa-QZ1vqhzvLDfROp)
+
+---
+
 ## 🔁 Proceso ETL
 
 1. **Extracción de Datos**
-   - Datos delictivos y operativos desde portales web oficiales (Policía Nacional, Fiscalía).
-   - Encuestas de percepción ciudadana (DANE, Observatorios).
-   - Informes de transparencia y observatorios civiles.
+   - Scraping de estadísticas delictivas desde la web de la [Policía Nacional](https://www.policia.gov.co/estadistica-delictiva?page=1).
+   - Descarga y consolidación de archivos de la [Fiscalía General](https://drive.google.com/drive/folders/1-9mURIly6WvBtGJfe7vRjvEHwFfE5gWs).
+   - Recolección de archivos estructurados en [XLSX y CSV](https://drive.google.com/drive/u/3/folders/180HfeUy5t6mAdlSFa-QZ1vqhzvLDfROp).
 
 2. **Transformación**
    - Limpieza de inconsistencias y nulos.
-   - Unificación de formatos de fechas, nombres y categorías delictivas.
-   - Cruce y alineación temporal de las fuentes.
+   - Estandarización de formatos de fechas, nombres y categorías delictivas.
+   - Validación y unificación de estructura para análisis conjunto.
 
 3. **Carga**
-   - Almacenamiento en archivos estructurados (CSV) o base de datos SQLite.
-   - Preparación para análisis exploratorio en R y generación de reportes.
+   - Almacenamiento de los datos procesados en formato CSV o base de datos SQLite.
+   - Preparación para análisis en R y generación de visualizaciones estadísticas.
+
+---
 
 👨‍💻 Autores
 Este proyecto fue desarrollado por estudiantes de la Universidad Autónoma de Occidente (UAO):
