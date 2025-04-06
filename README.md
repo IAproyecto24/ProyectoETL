@@ -71,7 +71,7 @@ Los datos extraídos y utilizados en este proyecto provienen de las siguientes f
 ---
 
 👨‍💻 Autores
-Este proyecto fue desarrollado por estudiantes de la Universidad Autónoma de Occidente (UAO):
+Este proyecto fue desarrollado por estudiantes de la Maestria en Inteligencia Artificial y Ciencia de Datos de la Universidad Autónoma de Occidente (UAO):
 
 🎓 Oscar Fernando Pulgarín Molina
 
