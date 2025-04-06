@@ -66,7 +66,7 @@ Los datos extraídos y utilizados en este proyecto provienen de las siguientes f
 
 3. **Carga**
    - Almacenamiento de los datos procesados en formato CSV o base de datos SQLite.
-   - Preparación para análisis en R y generación de visualizaciones estadísticas.
+   - Preparación para análisis en Visual Studio Code y generación de visualizaciones estadísticas en Power BI / VS Code.
 
 ---
 
