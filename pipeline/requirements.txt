@@ -1,0 +1,13 @@
+# Dependencias principales
+firebase-admin>=6.0.0  # SDK para Firebase
+firebase-functions>=1.0.0  # Cloud Functions Gen2
+google-cloud-storage>=2.0.0  # Acceso al bucket
+pandas>=1.5.0  # Manipulación de datos
+openpyxl>=3.0.0  # Lectura de XLSX
+python-dateutil>=2.8.0  # Manejo de fechas (dependencia de pandas)
+
+# Soporte para archivos legacy XLS (si es necesario)
+xlrd>=2.0.0  # Lectura de XLS antiguos
+
+# Dependencias de formato/serialización
+numpy>=1.21.0  # Requerido por pandas
